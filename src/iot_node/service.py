@@ -323,6 +323,6 @@ class Service(Singleton):
         t.start()
 
     def __init__(self):
-        # self.initXiaomi()
+        self.initXiaomi()
         rospy.Service("/iot_ros/command", IotRos, self.handle_service)
         self.p = Purecoollink()
