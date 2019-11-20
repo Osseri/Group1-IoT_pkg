@@ -9,3 +9,6 @@ Install Guide
 6. sudo pip3 install libpurecoollink
 7. cd work-space
 8. catkin_make
+
+Setting Guide
+=============
